@@ -1,5 +1,6 @@
 {
     "manifest_version": 1,
+    "id": "donation-timer",
     "name": "donation-timer",
     "version": "1.0.q56",
     "authors": [],
