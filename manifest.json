@@ -3,9 +3,11 @@
     "id": "donation-timer",
     "name": "donation-timer",
     "version": "1.0.36",
-    "authors": [],
-    "description": "",
-    "repository": "",
+    "authors": [
+        "ik1s3v"
+    ],
+    "description": "description",
+    "repository": "repository",
     "scopes": [
         "widgets:messages.read",
         "widgets:messages.subscription"
