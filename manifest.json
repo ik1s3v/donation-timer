@@ -1,10 +1,13 @@
 {
     "manifest_version": 1,
+    "id": "donation-timer",
     "name": "donation-timer",
-    "version": "1.0.88",
-    "authors": [],
-    "description": "",
-    "repository": "",
+    "version": "1.0.77",
+    "authors": [
+        "ik1s3v"
+    ],
+    "description": "description",
+    "repository": "repository",
     "scopes": [
         "widgets:messages.read",
         "widgets:messages.subscription"
