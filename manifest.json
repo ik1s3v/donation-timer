@@ -2,7 +2,11 @@
     "manifest_version": 1,
     "id": "donation-timer",
     "name": "donation-timer",
+<<<<<<< HEAD
     "version": "1.0.333",
+=======
+    "version": "1.0.77",
+>>>>>>> abb2ccf364f2cbbb163dc2c1d1af763e08cbec06
     "authors": [
         "ik1s3v"
     ],
