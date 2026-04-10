@@ -8,7 +8,7 @@
     "build:view": "rsbuild build -c rsbuild.config.view.ts",
     "build:control:watch": "npm run build:control -- --watch",
     "build:view:watch": "npm run build:view -- --watch",
-    "build:all": "npm run build:control && npm run build:view",
+    "build": "npm run build:control && npm run build:view",
     "check": "biome check --write",
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
