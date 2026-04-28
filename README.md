@@ -1,36 +1,78 @@
-# Rsbuild project
+# Donation Timer
 
-## Setup
+A donation timer widget for your stream. Display a dynamic countdown timer that shows donation progress in real-time.
 
-Install the dependencies:
+## Features
+
+- **Real-time Countdown**: Display a customizable countdown timer
+- **Customizable Appearance**: 
+  - Adjustable timer and text colors
+  - Configurable font sizes
+  - Flexible layout options
+- **Multilingual Support**: Available in multiple languages (English, German, Spanish, French, Portuguese, Russian, Ukrainian, Arabic, Hindi, Chinese)
+- **Easy Configuration**: Simple control panel to manage timer settings
+
+## Screenshots
+
+### Timer Display
+![Control Panel](./screenshots/2.png)
+
+### Control Panel
+![Timer View](./screenshots/1.png)
+
+## Getting Started
+
+### Installation
 
 ```bash
-pnpm install
+npm install
 ```
 
-## Get started
+### Building
 
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
-
+Build both control panel and view:
 ```bash
-pnpm dev
+npm run build
 ```
 
-Build the app for production:
-
+Build individual components:
 ```bash
-pnpm build
+npm run build:control    # Build control panel
+npm run build:view       # Build timer view
 ```
 
-Preview the production build locally:
+### Development
 
+Watch mode for automatic rebuilds:
 ```bash
-pnpm preview
+npm run build:control:watch   # Watch control panel
+npm run build:view:watch      # Watch timer view
 ```
 
-## Learn more
+### Preview
 
-To learn more about Rsbuild, check out the following resources:
+Preview the built application:
+```bash
+npm run preview
+```
 
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+## Configuration
+
+The timer can be configured through the control panel with the following options:
+
+- **Timer Color**: Customize the color of the countdown display
+- **Text Color**: Set the text color for labels and additional information
+- **Timer Size**: Adjust the size of the timer display (as percentage)
+- **Text Size**: Configure the size of supporting text (as percentage)
+- **Start Time**: Set the initial duration in minutes
+- **1 Minute Coast**: Define the donation amount for each minute of time
+- **Text**: Custom text to display with the timer
+
+
+## License
+
+This project is licensed under the AGPL License - see the [LICENSE-AGPL](./LICENSE-AGPL) file for details.
+
+## Author
+
+ik1s3v

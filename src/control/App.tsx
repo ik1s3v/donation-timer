@@ -233,7 +233,7 @@ const App = () => {
             }
           }}
         >
-          {t('save')}
+          {t('start')}
         </Button>
       </div>
       <TimerView
