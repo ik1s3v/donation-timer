@@ -1,0 +1,21 @@
+{
+    "manifest_version": 1,
+    "name": "donation-timer",
+    "id": "donation-timer",
+    "version": "1.0.0",
+    "authors": [
+        "ik1s3v"
+    ],
+    "description": "Donation timer for your stream.",
+    "repository": "https://github.com/ik1s3v/donation-timer",
+    "scopes": [
+        "widgets:control:storage.read",
+        "widgets:control:storage.write",
+        "widgets:view:storage.read",
+        "widgets:view:storage.write",
+        "widgets:settings.read",
+        "widgets:control:storage.subscription",
+        "widgets:messages.subscription"
+    ],
+    "connect_src": []
+}
