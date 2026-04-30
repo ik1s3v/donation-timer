@@ -1,1 +1,13 @@
-{}
+{
+    "title": "捐赠计时器",
+    "start": "开始",
+    "success": "成功",
+    "timer_color": "计时器颜色",
+    "text": "文本",
+    "text_color": "文本颜色",
+    "1_min_coast": "1分钟费用",
+    "text_size": "文本大小",
+    "timer_size": "计时器大小",
+    "start_time": "开始时间",
+    "minutes": "分钟"
+}

@@ -28,7 +28,7 @@ const App = () => {
     scope: 'widgets:control:storage.write',
   });
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [timer, setTimer] = useState<ITimer>(DEFAULT_TIMER);
 
@@ -37,6 +37,12 @@ const App = () => {
       setTimer(JSON.parse(data));
     }
   }, [data]);
+
+  useEffect(() => {
+    if (settings) {
+      i18n.changeLanguage(settings.language);
+    }
+  }, [settings, i18n]);
 
   return (
     <Box

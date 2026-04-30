@@ -1,1 +1,13 @@
-{}
+{
+    "title": "Temporizador de Doação",
+    "start": "Iniciar",
+    "success": "Sucesso",
+    "timer_color": "Cor do Temporizador",
+    "text": "Texto",
+    "text_color": "Cor do Texto",
+    "1_min_coast": "Custo de 1 Minuto",
+    "text_size": "Tamanho do Texto",
+    "timer_size": "Tamanho do Temporizador",
+    "start_time": "Tempo de Início",
+    "minutes": "min"
+}

@@ -1,6 +1,6 @@
 {
   "name": "donation-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^9.0.0",
     "@reduxjs/toolkit": "^2.11.2",
-    "@widy/react": "^1.0.10",
+    "@widy/react": "^1.0.11",
     "@widy/sdk": "^1.0.14",
     "dayjs": "^1.11.20",
     "i18next": "^26.0.8",

@@ -1,1 +1,13 @@
-{}
+{
+    "title": "Spenden-Timer",
+    "start": "Starten",
+    "success": "Erfolgreich",
+    "timer_color": "Timer-Farbe",
+    "text": "Text",
+    "text_color": "Textfarbe",
+    "1_min_coast": "1 Minute Kosten",
+    "text_size": "Textgröße",
+    "timer_size": "Timer-Größe",
+    "start_time": "Startzeit",
+    "minutes": "Min."
+}

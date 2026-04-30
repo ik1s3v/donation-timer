@@ -68,11 +68,7 @@ const TimerView = ({
     'widgets:control:storage.subscription',
     async (data) => {
       const newTimer = JSON.parse(data) as ITimer;
-      if (
-        !viewStorage ||
-        time === 0 ||
-        newTimer.start_time !== timer.start_time
-      ) {
+      if (time === 0 || newTimer.start_time !== timer.start_time) {
         const newStartTime = newTimer.start_time * 60 * 1000;
         setTime(newStartTime);
       }

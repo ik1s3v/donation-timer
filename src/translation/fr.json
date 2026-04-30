@@ -1,1 +1,13 @@
-{}
+{
+    "title": "Minuteur de Don",
+    "start": "Démarrer",
+    "success": "Succès",
+    "timer_color": "Couleur du minuteur",
+    "text": "Texte",
+    "text_color": "Couleur du texte",
+    "1_min_coast": "Coût de 1 minute",
+    "text_size": "Taille du texte",
+    "timer_size": "Taille du minuteur",
+    "start_time": "Temps de départ",
+    "minutes": "min"
+}
