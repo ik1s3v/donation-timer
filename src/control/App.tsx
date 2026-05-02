@@ -214,13 +214,19 @@ const App = () => {
           />
         </div>
       </div>
+      <TimerView
+        timer={timer}
+        width={400}
+        height={300}
+        backgroundColor="green"
+        isControl
+      />
       <div style={{ display: 'flex', placeContent: 'center' }}>
         <Button
           variant="contained"
           onClick={async () => {
             try {
               await trigger(timer);
-              console.log('timer:', timer);
               setTimer(timer);
               dispatch(
                 showSnackBar({
@@ -242,13 +248,6 @@ const App = () => {
           {t('start')}
         </Button>
       </div>
-      <TimerView
-        timer={timer}
-        width={400}
-        height={300}
-        backgroundColor="green"
-        isControl
-      />
       <AppSnackBar />
     </Box>
   );

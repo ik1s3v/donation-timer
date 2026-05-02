@@ -20,7 +20,6 @@ const ColorPicker = ({
   };
 
   const handleChange = (colorResult: ColorResult) => {
-    console.log('colorResult:', colorResult);
     const color = `rgba(${colorResult.rgb.r}, ${colorResult.rgb.g}, ${colorResult.rgb.b}, ${colorResult.rgb.a})`;
     setColor(color);
     onChange(color);
